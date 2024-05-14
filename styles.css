@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1a1a1a;
+    color: white;
+    
+
+}
+header .header1{
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    font-size: 35px;
+}
+header i{
+    font-size: 35px;
+}
+header .header2{
+    background-image: url(xxxmin.jpg);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header2 h2{
+    font-size: 60px;
+}
+main{
+    background-color: #1a1a1a;
+}
+main .contaBox{
+    position: relative;
+    padding: 0px 60px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+main .contaBox .Box{
+    width: 300px;
+    background-color: white;
+    border: 20px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+main .contaBox .Box p{
+   text-align: center;    
+}
+main .contaBox .Box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main .contaBox .Box  a{
+    text-decoration: none;
+    color: red;
+}
+@media(max-width:1200px){
+    header .header2{
+        background-position: center;
+    }
+}
